@@ -1,0 +1,77 @@
+:root {
+  --Color-White: #fff;
+  --Color-Black: #141414;
+  --Color-Gray: #555;
+  --Color-LightGreen: #5c8692;
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@font-face {
+  font-family: "PlayfairDisplay-Regular";
+  src: url(../../public/assets/fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: "PlayfairDisplay-Bold";
+  src: url(../../public/assets/fonts/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Manrope-Regular";
+  src: url(../../public/assets/fonts/Manrope-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Manrope-Medium";
+  src: url(../../public/assets/fonts/Manrope-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Manrope-SemiBold";
+  src: url(../../public/assets/fonts/Manrope-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Manrope-Bold";
+  src: url(../../public/assets/fonts/Manrope-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Manrope-ExtraBold";
+  src: url(../../public/assets/fonts/Manrope-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "DMSans-Regular";
+  src: url(../../public/assets/fonts/DMSans-Regular.ttf);
+}

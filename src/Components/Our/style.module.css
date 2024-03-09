@@ -1,0 +1,72 @@
+.ourServices {
+  position: relative;
+}
+
+.sectionItems::before {
+  content: "";
+  position: absolute;
+  top: 220px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(../../../public/assets/img/ourBg.png) no-repeat center;
+  z-index: -1;
+}
+
+.sectionText {
+  font: 0.9375em/154.5% "Manrope-SemiBold", sans-serif;
+  letter-spacing: 10%;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 5rem 0 0.5rem;
+}
+
+.colorLightGreen {
+  color: var(--Color-LightGreen, #5C8692);
+}
+
+.colorBlack {
+  color: var(--Color-Black, #141414);
+}
+
+.sectionTitle {
+  font: 2.8125em/130% "PlayfairDisplay-Bold", sans-serif;
+  letter-spacing: -1%;
+  width: 23ch;
+  margin: 0 auto 4rem;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.ourUpContent {
+  justify-content: space-between;
+}
+
+.ourUpRight {
+  margin-top: 6.3rem;
+}
+
+.ourRightTitle {
+  font: 1.375em/130% "PlayfairDisplay-Bold", sans-serif;
+}
+
+.ourRightText {
+  color: var(--Color-Gray, #555);
+  font: 1.125em/165% "PlayfairDisplay-Regular", sans-serif;
+  letter-spacing: 0.02em;
+  border-bottom: 1px dotted #999;
+  margin-bottom: 2rem;
+  padding-bottom: 10px;
+}
+
+.ourLink {
+  border: 2px solid var(--Color-LightGreen, #5c8692);
+  padding: 23px 34px;
+  font: 0.875em/125% "Manrope-ExtraBold", sans-serif;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-align: center;
+}

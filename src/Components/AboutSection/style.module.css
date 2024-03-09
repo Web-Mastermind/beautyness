@@ -1,0 +1,60 @@
+.article {
+  background-color: #EBF3F5;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.articleItems {
+  justify-content: space-around;
+  padding: 6rem 0;
+}
+
+.articleText {
+  color: var(--Color-LightGreen, #5c8692);
+  font: 0.9375em/154% "Manrope-SemiBold", sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.articleTitle {
+  color: var(--Color-Black, #141414);  
+  font: 2.8125em/130% "PlayfairDisplay-Bold", sans-serif;
+  letter-spacing: -0.01em;
+  width: 28rem;
+}
+
+.articleSeconText {
+  color: var(--Color-Gray, #555);  
+  font: 1.125em/165% "Manrope-Regular", sans-serif;
+  width: 38rem;
+  padding: 1.7rem 0;
+}
+
+.articleIconsItems {
+  background-color: var(--Color-White, #fff);
+  border: 1px solid #1e2c30;
+  width: 10.3125rem;
+  height: 11.25rem;
+  margin-right: 10px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.iconsText {
+  color: var(--Color-Black, #141414); 
+  font: 1.375em/120% "PlayfairDisplay-Bold", sans-serif;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.firstText {
+  width: 92%;
+}
+
+.secondText,
+.thirdText {
+  width: 81%;
+}

@@ -1,0 +1,60 @@
+.headerContainer {
+  max-width: 1830px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.headerItems {
+  padding: 2rem 0;
+  justify-content: space-between;
+}
+
+.siteItems {
+  column-gap: 2.875rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.colorBlack {
+  color: var(--Color-Black, #141414);  
+}
+
+.siteLogoText {
+  font: 1.75em/125% "PlayfairDisplay-Bold", sans-serif;
+}
+
+.gap {
+  margin-right: 10px;
+}
+
+.sitePhoneText {
+  font: 1.125em/125% "Manrope-SemiBold", sans-serif;
+}
+
+.navLinks {
+  font: 1em/125% "Manrope-Regular", sans-serif;
+  color: var(--Color-Gray, #555);  
+}
+
+.navItems:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.reservContainer {
+  background-color: #7a9ca5;
+  padding: 1rem 2.0625rem;
+  margin-left: 2rem;
+}
+
+.reservationLink {
+  color: var(--Color-White, #fff);  
+  font: 0.875em/125% "Manrope-Bold", sans-serif;
+  letter-spacing: 0.1em;
+}
+
+.reservationIcon {
+  margin-right: 12px;
+}
