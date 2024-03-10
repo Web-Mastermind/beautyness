@@ -5,7 +5,7 @@
 .sectionItems::before {
   content: "";
   position: absolute;
-  top: 220px;
+  top: 105px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -69,4 +69,8 @@
   letter-spacing: 0.12em;
   text-transform: uppercase;
   text-align: center;
+}
+
+.ourImageSecond {
+  margin-bottom: 7rem;
 }
