@@ -1,0 +1,43 @@
+.benefits {
+  padding: 5rem 0;
+}
+
+.sectionText {
+  color: var(--Color-LightGreen, #5c8692);
+  font: 0.9375em/154% "Manrope-SemiBold", sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.sectionTitle {
+  color: var(--Color-Black, #141414);  
+  font: 2.8125em/130% "PlayfairDisplay-Bold", sans-serif;
+  letter-spacing: -0.01em;
+  margin-bottom: 2.6875rem;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.gridMain {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 2.1875rem 6.5625rem;
+}
+
+.gridItems {
+  width: 20rem;
+}
+
+.gridTitle {
+  color: var(--Color-Black, #141414);
+  font: 1.625em/120% "PlayfairDisplay-Bold", sans-serif;
+  padding: 20px 0 11px;
+}
+
+.gridText {
+  color: var(--Color-Gray, #555);  
+  font: 1.125em/165% "Manrope-Regular", sans-serif;
+  letter-spacing: 0.02em;
+}
