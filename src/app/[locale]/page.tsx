@@ -5,6 +5,8 @@ import { useTranslations } from "next-intl";
 import MainSection from "@/Components/MainSection";
 import AboutSection from "@/Components/AboutSection";
 import ServiceSection from "@/Components/Our";
+import Testimonials from "@/Components/Testimonials";
+import Benefits from "@/Components/Benefits";
 
 export default function Home() {
   const t = useTranslations("Main")
@@ -32,6 +34,8 @@ export default function Home() {
       <MainSection />
       <AboutSection />
       <ServiceSection />
+      <Testimonials />
+      <Benefits />
     </>
   );
 }
