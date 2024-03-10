@@ -39,7 +39,7 @@ const ServiceSection = () => {
               <p className={styles.ourRightText}>{t("Services.textOne")}</p>
               <Link className={`${styles.ourLink} ${styles.colorBlack}`} href="/">{t("Services.link")}</Link>
             </div>
-            <Image className={styles.ourImage} src="/assets/img/ourImage2.png" alt="Services Image" width={600} height={640} />
+            <Image className={`${styles.ourImage} ${styles.ourImageSecond}`} src="/assets/img/ourImage2.png" alt="Services Image" width={600} height={640} />
           </div>
 
         </div>
