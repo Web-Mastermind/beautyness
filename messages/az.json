@@ -50,5 +50,10 @@
       "titleFour": "Sauna rahatlığı ....................................... 73.00$-dan",
       "link": "RANDEVU ALIN"
     }
+  },
+  "Testimonials": {
+    "sectionText": "tövsiyələr",
+    "sectionTitle": "Müştərilərimizin rəyləri...",
+    "cardText": "Oxucunun tərtibinə baxarsa, səhifənin oxunaqlı məzmunu ilə diqqəti yayındıracağı çoxdan müəyyən edilmiş bir həqiqətdir. Lorem of distribution istifadə etməyin mənası, oxunaqlı ingilis dilinə bənzəməsidir."
   }
 }
