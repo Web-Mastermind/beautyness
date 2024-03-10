@@ -1,0 +1,42 @@
+.testimonialsSection {
+  background-color: #EBF3F5;
+  padding: 6rem 0;
+}
+
+.sectionText {
+  color: var(--Color-LightGreen, #5c8692);
+  font: 0.9375em/154% "Manrope-SemiBold", sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.sectionTitle {
+  font: 2.8125em/130% "PlayfairDisplay-Bold", sans-serif;
+  letter-spacing: -0.01em;
+  margin: 0.5rem 0 4rem;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.colorBlack {
+  color: var(--Color-Black, #141414);
+}
+
+.cards {
+  display: flex;
+  gap: 0 2.5rem;
+}
+
+.leftCard {
+  background-color: var(--Color-White, #fff);
+  width: 36.375em;
+  padding: 44px;
+}
+
+.cardText {
+  font: 1.1875em/180% "Manrope-Regular", sans-serif;
+  width: 30rem;
+  text-align: justify;
+}
