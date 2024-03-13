@@ -1,0 +1,156 @@
+.discount {
+  background-color: #EDF5F7;
+  padding: 7rem 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.discountMainItems {
+  justify-content: space-between;
+}
+
+.discountLeftItems {
+  width: 33rem;
+}
+
+.colorBlack {
+  color: var(--Color-Black, #141414);
+}
+
+.colorWhite {
+  color: var(--Color-White, #fff);
+}
+
+.discountText {
+  color: var(--Color-LightGreen, #5c8692);
+  font: 0.9375em/154% "Manrope-SemiBold", sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.discountTitle {
+  font: 2.8125em/130% "PlayfairDisplay-Bold", sans-serif;
+  letter-spacing: -0.01em;
+}
+
+.disountSecondText {
+  color: var(--Color-Gray, #555);
+  font: 1.125em/175% "Manrope-Regular", sans-serif;
+  margin: 14px 0 37px;
+}
+
+.discountContainer {
+  background-color: var(--Color-White, #fff);
+  border: 1px solid #95bfcb;
+  padding: 18px 40px;
+  width: 20rem;
+}
+
+.second {
+  margin-top: 15px;
+} 
+
+.upItemsImage {
+  margin-right: 19px;
+}
+
+.upItems,
+.discountLink {
+  font: 0.875em/150% "Manrope-ExtraBold", sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.discountLink {
+  margin-left: 49px;
+}
+
+.discountImageItem {
+  background: #1e2c30;
+  padding: 21px 29px;
+}
+
+.discountTextItem {
+  font: 0.9375em/175% "Manrope-ExtraBold", sans-serif;
+  letter-spacing: 0.1em;
+  width: 6.1875rem;
+  text-align: center;
+}
+
+.discountRightItems {
+  background-color: var(--Color-White, #fff);
+  box-shadow: 0 20px 40px 0 rgba(42, 68, 75, 0.13);
+  padding: 4.125rem 4.6875rem;
+}
+
+.fonts {
+  font: 1.125em/160% "Manrope-Regular", sans-serif;
+}
+
+.fonts::placeholder {
+  color: var(--Color-Gray, #555);
+}
+
+.border {
+  border: 1px solid var(--Color-LightGreen, #5c8692);
+}
+
+.outline {
+  outline: none;
+}
+
+.width {
+  width: 25rem;
+}
+
+.padding {
+  padding: 0 3rem;
+}
+
+.block {
+  display: block;
+}
+
+.discountRightItems input {
+  height: 4.0625rem;
+  margin-bottom: 15px;
+}
+
+.discountArea {
+  background: url(../../../public/assets/icons/areaIcon.svg) no-repeat left 15px top 20px;
+  height:8.5rem;
+  resize: none;
+  padding-top: 18px;
+}
+
+.inputItem1 {
+  background: url(../../../public/assets/icons/nameIcon.svg) no-repeat left 15px top 20px;
+}
+
+.inputItem2 {
+  background: url(../../../public/assets/icons/mailIcon.svg) no-repeat left 15px top 20px;
+}
+
+.inputItem3 {
+  background: url(../../../public/assets/icons/telIcon.svg) no-repeat left 15px top 20px;
+}
+
+.inputItem4 {
+  background: url(../../../public/assets/icons/serviceIcon.svg) no-repeat left 15px top 20px;
+}
+
+.req {
+  background: #5c8692;
+  font: 0.875em/125% "Manrope-ExtraBold", sans-serif;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 23px 0;
+  margin-top: 10px;
+}
