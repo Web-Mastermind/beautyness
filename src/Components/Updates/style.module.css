@@ -1,0 +1,67 @@
+.updatesSection {
+  padding: 5rem 0;
+}
+
+.updatesText {
+  font: 0.9375em/154% "Manrope-SemiBold", sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.colorLightGreen {
+  color: var(--Color-LightGreen, #5c8692);
+}
+
+.colorBlack {
+  color: var(--Color-Black, #141441);
+}
+
+.updatesTitle {
+  font: 2.8125em/130% "PlayfairDisplay-Bold", sans-serif;
+  letter-spacing: -0.01em;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.updatesMain {
+  display: flex;
+  gap: 0 2.75rem;
+}
+
+.mainTextItems {
+  background: #edf5f7;
+  width: 23rem;
+  padding: 30px 25px;
+}
+
+.mainText {
+  font: 0.8125em/125% "Manrope-Bold", sans-serif;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.mainTitle {
+  font: 1.375em/140% "PlayfairDisplay-Bold", sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.mainSecondText {
+  color: var(--Color-Gray, #555);
+  font: 1.125em/155% "Manrope-Regular", sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.updatesLink {
+  border: 2px solid var(--Color-LightGreen, #5c8692);
+  padding: 23px 41px;
+  font: 0.875em/125% "Manrope-ExtraBold", sans-serif;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.linkItem {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.75rem;
+}
