@@ -1,0 +1,47 @@
+.footer {
+  background-color: #1E2C30;
+  padding: 3rem 0 0;
+}
+
+.footerItems,
+.footerLogoItems,
+.footerLogoTitle,
+.footerPages {
+  display: flex;
+  align-items: center;
+}
+
+.justify {
+  justify-content: space-between;
+}
+
+.footerItems {
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--Color-Gray, #555);
+}
+
+.colorWhite {
+  color: var(--Color-White, #fff);
+}
+
+.footerLogoTitle {
+  font: 2.5em/125% "PlayfairDisplay-Bold", sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.footerSocLinks:not(:last-child) {
+  margin-right: 10px;
+}
+
+.pagesTitle {
+  font: 1.375em/140% "PlayfairDisplay-Bold", sans-serif;
+  padding: 30px 0 21px;
+}
+
+.pageLinks {
+  display: block;
+  font: 1.0625em/200% "Manrope-Medium", sans-serif;
+  letter-spacing: -0.01em;
+  height: fit-content;
+  width: fit-content;
+}
