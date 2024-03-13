@@ -6,13 +6,26 @@
 .footerItems,
 .footerLogoItems,
 .footerLogoTitle,
-.footerPages {
+.footerPages,
+.flex {
   display: flex;
+}
+
+.alignCenter {
   align-items: center;
 }
 
-.justify {
+.justify,
+.footerPages {
   justify-content: space-between;
+}
+
+.footerSiteLogoImg {
+  margin-right: 12px;
+}
+
+.footerPages {
+  padding-bottom: 3rem;
 }
 
 .footerItems {
@@ -38,10 +51,48 @@
   padding: 30px 0 21px;
 }
 
-.pageLinks {
+.block {
   display: block;
+}
+
+.pageLinks,
+.mailLink,
+.phoneLink {
   font: 1.0625em/200% "Manrope-Medium", sans-serif;
   letter-spacing: -0.01em;
   height: fit-content;
   width: fit-content;
+}
+
+.adressTitle {
+  margin: 0 15px 27px 0;
+}
+
+.mailTitle {
+  margin: 0 15px 15px 0;
+}
+
+.addressText {
+  width: 25ch;
+  margin-top: 8px;
+}
+
+.hoursText {
+  margin: 7px 0 15px;
+}
+
+.copyright {
+  background-color: #111E22;
+}
+
+.destiny {
+  font: 0.9375em/200% "Manrope-Regular", sans-serif;
+  letter-spacing: -0.01em;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.destinyText {
+  font-size: 1.125em;
+  font-family: "DMSans-Regular", sans-serif;
 }
