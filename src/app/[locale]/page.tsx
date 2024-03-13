@@ -7,6 +7,8 @@ import AboutSection from "@/Components/AboutSection";
 import ServiceSection from "@/Components/Our";
 import Testimonials from "@/Components/Testimonials";
 import Benefits from "@/Components/Benefits";
+import Discount from "@/Components/Discount";
+import Updates from "@/Components/Updates";
 
 export default function Home() {
   const t = useTranslations("Main")
@@ -36,6 +38,8 @@ export default function Home() {
       <ServiceSection />
       <Testimonials />
       <Benefits />
+      <Discount />
+      <Updates />
     </>
   );
 }
