@@ -3,6 +3,7 @@ import styles from "./style.module.css"
 import { useTranslations } from "next-intl";
 import LocalSwitcher from "@/Components/local-switcher"
 import Image from "next/image";
+import Menu from "../Sidevar/Menu";
 
 const Header = () => {
   const t = useTranslations("Header")
@@ -16,10 +17,10 @@ const Header = () => {
             <Link className={`${styles.sitePhoneText} ${styles.flex} ${styles.colorBlack}`} href="tel:(+22) 123 456 7890"><Image className={`${styles.sitePhoneImage} ${styles.gap}`} src="/assets/icons/phoneIcon.svg" alt="Phone Icon" width={33} height={33} />{t("phone")}</Link>
           </div>
           <LocalSwitcher />
+          <Menu />
           <nav className={styles.nav}>
             <ul className={`${styles.navList} ${styles.flex}`}>
               <li className={styles.navItems}><Link className={styles.navLinks} href="/">{t("home")}</Link></li>
-              <li className={styles.navItems}><Link className={styles.navLinks} href="/">{t("pages")}</Link></li>
               <li className={styles.navItems}><Link className={styles.navLinks} href="/">{t("about")}</Link></li>
               <li className={styles.navItems}><Link className={styles.navLinks} href="/">{t("services")}</Link></li>
               <li className={styles.navItems}><Link className={styles.navLinks} href="/">{t("contact")}</Link></li>
