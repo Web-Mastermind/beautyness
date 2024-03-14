@@ -58,3 +58,56 @@
 .thirdText {
   width: 81%;
 }
+
+@media (max-width:320px) {
+  .flex {
+    flex-direction: column;
+  }
+
+  .sectionMainImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .articleItems {
+    padding: 1rem 0;
+  }
+
+  .articleText {
+    font-size: 0.8em;
+  }
+
+  .articleTitle {
+    font-size: 1.3em;
+    width: inherit;
+  }
+
+  .articleSeconText {
+    font-size: 0.8em;
+    padding: 1rem 0rem;
+    width: inherit;
+  }
+
+  .sectionImages {
+    width: 100%;
+    height: 35%;
+  }
+
+  .articleIcons {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .articleIconsItems {
+    width: 4.3125rem;
+    height: 5.25rem;
+    margin-right: 0px;
+  }
+
+  .iconsText {
+    font-size: 0.6em;
+    text-align: center;
+    margin-top: 8px;
+  }
+}
