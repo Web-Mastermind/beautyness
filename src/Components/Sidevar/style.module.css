@@ -89,7 +89,7 @@
   outline-offset: 5px;
 }
 
-.navLinks {
+.navMenuLinks {
   font: 1em/125% "Manrope-Regular", sans-serif;
   color: var(--Color-Gray, #555);  
 }
@@ -105,7 +105,7 @@
     display: flex;
   }
 
-  .navLinks {
+  .navMenuLinks {
     color: var(--Color-Black, #141414);
   }
 
@@ -115,7 +115,4 @@
     gap: 20px;
   }
 
-  .navSocLinks svg {
-    fill: red;
-  }
  }
