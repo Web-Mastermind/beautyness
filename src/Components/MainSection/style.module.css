@@ -32,3 +32,35 @@
   text-transform: uppercase;
   text-align: center;
 }
+
+@media (max-width:320px) {
+  .sectionItems {
+    flex-direction: column;
+  }
+
+  .sectionImage {
+    width: 100%;
+    height: 100%;
+  }
+
+  .sectionRead {
+    padding: 2rem 0;
+    width: inherit;
+    margin-right: 0rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.2em;
+    margin-top: 1rem;
+  }
+
+  .sectionText {
+    font-size: 0.75em;
+    margin: 0.4rem 0 1.3rem;
+  }
+
+  .sectionLink {
+    padding: 0.8rem 2.3rem;
+    font-size: 0.5em;
+  }
+}
