@@ -17,13 +17,13 @@ const Testimonials = () => {
             <div className={styles.leftCard}>
               <p className={`${styles.cardText} ${styles.colorBlack}`}>{t("cardText")}</p>
             </div>
-            <Image src="/assets/img/leftCardImage.png" alt="Card Image" width={582} height={125} />
+            <Image className={styles.cardsImages} src="/assets/img/leftCardImage.png" alt="Card Image" width={582} height={125} />
           </div>
           <div className={styles.cardRight}>
             <div className={styles.leftCard}>
               <p className={`${styles.cardText} ${styles.colorBlack}`}>{t("cardText")}</p>
             </div>
-            <Image src="/assets/img/rightCardImage.png" alt="Card Image" width={582} height={125} />
+            <Image className={styles.cardsImages} src="/assets/img/rightCardImage.png" alt="Card Image" width={582} height={125} />
           </div>
         </div>
       </div>
