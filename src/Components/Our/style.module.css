@@ -74,3 +74,57 @@
 .ourImageSecond {
   margin-bottom: 7rem;
 }
+
+@media (max-width:320px) {
+  .sectionItems::before {
+    background: none;
+  }
+
+  .sectionText {
+    font-size: 0.6em;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1.5rem 0 0.5rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.5em;
+    width: inherit;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .flex {
+    flex-direction: column-reverse;
+  }
+
+  .ourUpRight {
+    margin-top: 3rem;
+  }
+  
+  .ourRightTitle {
+    font-size: 0.75em;
+  }
+  
+  .ourRightText {
+    font-size: 0.6em;
+    margin-bottom: 1.5rem;
+    padding-bottom: 7px;
+  }
+
+  .ourLink {
+    margin-bottom: 150px;
+    font-size: 0.65em;
+    padding: 18px 24px;
+  }
+
+  .ourImage {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .ourImageSecond {
+    margin-bottom: 0rem;
+  }
+}
