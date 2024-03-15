@@ -12,7 +12,7 @@ const Updates = () => {
         </div>
         <div className={styles.updatesMain}>
           <div className={styles.mainItems}>
-            <Image src="/assets/img/updatesImage.png" alt="Image" width={370} height={325} />
+            <Image className={styles.updatesImageItems} src="/assets/img/updatesImage.png" alt="Image" width={370} height={325} />
             <div className={styles.mainTextItems}>
               <p className={`${styles.mainText} ${styles.colorLightGreen}`}>11TH AUGUST 2021 &#8213; BY PETER BERGSON</p>
               <h3 className={`${styles.mainTitle} ${styles.colorBlack}`}>The energy efficiency of the hydrotherapy or swim</h3>
@@ -20,7 +20,7 @@ const Updates = () => {
             </div>
           </div>
           <div className={styles.mainItems}>
-            <Image src="/assets/img/updatesImage2.png" alt="Image" width={370} height={325} />
+            <Image className={styles.updatesImageItems} src="/assets/img/updatesImage2.png" alt="Image" width={370} height={325} />
             <div className={styles.mainTextItems}>
               <p className={`${styles.mainText} ${styles.colorLightGreen}`}>11TH AUGUST 2021 &#8213; BY PETER BERGSON</p>
               <h3 className={`${styles.mainTitle} ${styles.colorBlack}`}>The energy efficiency of the hydrotherapy or swim</h3>
@@ -28,7 +28,7 @@ const Updates = () => {
             </div>
           </div>
           <div className={styles.mainItems}>
-            <Image src="/assets/img/updatesImage3.png" alt="Image" width={370} height={325} />
+            <Image className={styles.updatesImageItems} src="/assets/img/updatesImage3.png" alt="Image" width={370} height={325} />
             <div className={styles.mainTextItems}>
               <p className={`${styles.mainText} ${styles.colorLightGreen}`}>11TH AUGUST 2021 &#8213; BY PETER BERGSON</p>
               <h3 className={`${styles.mainTitle} ${styles.colorBlack}`}>The energy efficiency of the hydrotherapy or swim</h3>
