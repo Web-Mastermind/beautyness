@@ -65,3 +65,57 @@
   justify-content: center;
   margin-top: 3.75rem;
 }
+
+@media (max-width:320px) {
+  .updatesSection {
+    padding: 2rem 0;
+  }
+
+  .updatesText {
+    font-size: 0.8em;
+  }
+
+  .updatesTitle {
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+  }
+
+  .updatesMain {
+    flex-direction: column;
+    gap: 1.1rem 0;
+  }
+
+  .updatesImageItems {
+    width: 100%;
+    height: auto;
+  }
+
+  .mainTextItems {
+    width: 100%;
+    padding: 30px 25px;
+  }
+
+  .mainText {
+    font-size: 0.65em;
+  }
+
+  .mainTitle {
+    font-size: 1.0em;
+    margin: 6px 0;
+  }
+
+  .mainSecondText {
+    font-size: 0.75em;
+  }
+
+  .updatesLink {
+    padding: 12px 20px;
+    font-size: 0.5em;
+  }
+
+  .linkItem {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+}
