@@ -136,6 +136,10 @@
     font-size: 0.7em;
   }
 
+  .pageLinks:last-child {
+    margin-bottom: 5px;
+  }
+
   .footerPagesItems {
     border-bottom: 1px solid var(--Color-Gray, #555);
   }
