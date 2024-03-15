@@ -96,3 +96,76 @@
   font-size: 1.125em;
   font-family: "DMSans-Regular", sans-serif;
 }
+
+@media (max-width:320px) {
+  .footer {
+    padding: 0.3rem 0 0;
+  }
+
+  .footerSiteLogoImg {
+   display: none;
+  }
+
+  .footerPages {
+    padding-bottom: 0.5rem;
+  }
+
+  .footerItems {
+    padding-bottom: 15px;
+  }
+
+  .footerLogoTitle {
+    font-size: 1.5em;
+  }
+
+  .soclinksImageItem {
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .pagesTitle {
+    font-size: 1em;
+    padding: 7px 0 9px;
+  }
+
+  .pageLinks,
+  .mailLink,
+  .phoneLink,
+  .addressText {
+    font-size: 0.7em;
+  }
+
+  .footerPagesItems {
+    border-bottom: 1px solid var(--Color-Gray, #555);
+  }
+
+  .footerItems,
+  .footerLogoItems,
+  .footerLogoTitle,
+  .footerPages,
+  .flex {
+    flex-direction: column;
+  }
+
+  .addressMain {
+    flex-direction: row;
+  }
+
+  .adressTitle {
+    margin: 0 7px 0 0;
+  }
+  
+  .mailTitle {
+    margin: 1.5px 0;
+  }
+
+  .addressText {
+    width: 100%;
+  }
+
+  .destiny {
+    font-size: 0.7em;
+    padding: 8px 0;
+  }
+}
