@@ -41,3 +41,35 @@
   font: 1.125em/165% "Manrope-Regular", sans-serif;
   letter-spacing: 0.02em;
 }
+
+@media (max-width:320px) {
+  .benefits {
+    padding: 3rem 0;
+  }
+
+  .sectionText {
+    font-size: 0.7em;
+  }
+
+  .gridMain {
+    gap: 1.2rem 0rem;
+  }
+
+  .gridItems {
+    width: 80%;
+  }
+
+  .sectionTitle {
+    font-size: 1.7em;
+    margin-bottom: 2rem;
+  }
+
+  .gridTitle {
+    font-size: 1.2em;
+    padding: 10px 0 7px;
+  }
+
+  .gridText {
+    font-size: 0.8em;
+  }
+}
