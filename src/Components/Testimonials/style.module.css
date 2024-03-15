@@ -40,3 +40,39 @@
   width: 30rem;
   text-align: justify;
 }
+
+@media (max-width:320px) {
+  .testimonialsSection {
+    margin-top: 2rem;
+    padding: 2rem 0;
+  }
+
+  .sectionText {
+    font-size: 0.8em;
+  }
+
+  .sectionTitle {
+    font-size: 1.8em;
+    margin: 0.3rem 0 1.2rem;
+  }
+
+  .cards {
+    flex-direction: column;
+    gap: 1.2rem 0;
+  }
+
+  .leftCard {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .cardText {
+    font-size: 0.6em;
+    width: fit-content;
+  }
+
+  .cardsImages {
+    width: 100%;
+    height: auto;
+  }
+}
