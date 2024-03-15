@@ -11,10 +11,10 @@ const Footer = () => {
             <Link className={`${styles.footerLogoTitle} ${styles.colorWhite} ${styles.alignCenter}`} href="/" ><Image className={styles.footerSiteLogoImg} src="/assets/icons/siteLogo.svg" alt="site logo" width={65} height={65} />Beautyness</Link>
           </div>
           <div className={styles.footerSocIcons}>
-            <Link className={styles.footerSocLinks} target="_blank" href="https://www.facebook.com/" ><Image src="/assets/icons/facebookFooter.svg" alt="Facebook Icon" width={55} height={55} /></Link>
-            <Link className={styles.footerSocLinks} target="_blank" href="https://twitter.com/" ><Image src="/assets/icons/twitterFooter.svg" alt="Twiiter Icon" width={55} height={55} /></Link>
-            <Link className={styles.footerSocLinks} target="_blank" href="https://www.linkedin.com/" ><Image src="/assets/icons/linkedinFooter.svg" alt="Linkedin Icon" width={55} height={55} /></Link>
-            <Link className={styles.footerSocLinks} target="_blank" href="https://www.instagram.com/" ><Image src="/assets/icons/instagramFooter.svg" alt="Instagram Icon" width={55} height={55} /></Link>
+            <Link className={styles.footerSocLinks} target="_blank" href="https://www.facebook.com/" ><Image className={styles.soclinksImageItem} src="/assets/icons/facebookFooter.svg" alt="Facebook Icon" width={55} height={55} /></Link>
+            <Link className={styles.footerSocLinks} target="_blank" href="https://twitter.com/" ><Image className={styles.soclinksImageItem} src="/assets/icons/twitterFooter.svg" alt="Twiiter Icon" width={55} height={55} /></Link>
+            <Link className={styles.footerSocLinks} target="_blank" href="https://www.linkedin.com/" ><Image className={styles.soclinksImageItem} src="/assets/icons/linkedinFooter.svg" alt="Linkedin Icon" width={55} height={55} /></Link>
+            <Link className={styles.footerSocLinks} target="_blank" href="https://www.instagram.com/" ><Image className={styles.soclinksImageItem} src="/assets/icons/instagramFooter.svg" alt="Instagram Icon" width={55} height={55} /></Link>
           </div>
         </div>
         <div className={styles.footerPages}>
