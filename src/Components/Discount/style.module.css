@@ -154,3 +154,101 @@
   padding: 23px 0;
   margin-top: 10px;
 }
+
+@media (max-width:320px) {
+  .discount {
+    background-color: #EDF5F7;
+    padding: 0.3rem 0;
+  }
+  
+  .flex {
+    flex-direction: column;
+  }
+
+  .discountLeftItems {
+    width: 100%;
+  }
+
+  .discountText {
+    font-size: 0.7em;
+  }
+  
+  .discountTitle {
+    font-size: 1.5em;
+  }
+  
+  .disountSecondText {
+    font-size: 0.8em;
+    margin: 10px 0 15px;
+  }
+
+  .discountContainer {
+    padding: 18px 40px;
+    width: 100%;
+  }
+
+  .upItems,
+  .discountLink {
+  font-size: 0.7em;
+  }
+
+  .discountLink {
+   margin-left: 0px;
+  }
+
+  .discountImageItem {
+    padding: 21px 29px;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    margin: 15px 0;
+  }
+
+  .discountTextItem {
+    font-size: 0.8em;
+    width: 100%;
+  }
+
+  .discountRightItems {
+    padding: 1.5rem 1.8rem;
+  }
+  
+  .fonts {
+    font-size: 0.8em;
+  }
+  
+  .width {
+    width: 100%;
+  }
+  
+  .padding {
+    padding: 0 1.9rem;
+  }
+  
+  .discountRightItems input {
+    height: 2.0rem;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .discountArea {
+    height:4.5rem;
+    padding-top: 4px;
+  }
+  
+  .inputItem1,
+  .inputItem2,
+  .inputItem3,
+  .inputItem4,
+  .discountArea
+   {
+    background-size: 15px;
+    background-position: 10px 8px;
+   }
+  
+  .req {
+    font-size: 0.7em;
+    padding: 15px 0;
+    margin-top: 8px;
+  }
+}
